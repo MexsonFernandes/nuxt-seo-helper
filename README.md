@@ -9,3 +9,14 @@ Its always important to position your site on search engine. I have compiled som
 Add the `seo.js` file to `plugins` folder.
 
 You can use `this.$seo.<func-name>` in vue files globally.
+
+## Example
+
+```
+...
+export default {
+  head() {
+    return this.$utils.getSeoMetaTags('This is title', 'This is a very long description')
+  },
+...
+```
