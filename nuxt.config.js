@@ -10,12 +10,6 @@ module.exports = {
         content: "width=device-width, initial-scale=1"
       },
     ],
-    link: [
-      {
-        rel: 'canonical',
-        href: '{{web-link}}'
-      },
-    ],
   },
   plugins: [
     {
