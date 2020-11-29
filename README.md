@@ -16,7 +16,7 @@ You can use `this.$seo.<func-name>` in vue files globally.
 ...
 export default {
   head() {
-    return this.$utils.getSeoMetaTags('This is title', 'This is a very long description')
+    return this.$seo.getSeoMetaTags('This is title', 'This is a very long description')
   },
 ...
 ```
