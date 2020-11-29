@@ -71,7 +71,13 @@ const utils = {
           itemprop: "content",
           content: description
         },
-      ]
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: url
+        },
+      ],
     };
   }
 };
